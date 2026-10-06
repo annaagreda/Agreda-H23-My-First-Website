@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>anna’s little pink diary</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- floating decorations -->
+
+
+<div class="decor heart one"></div>
+<div class="decor heart two"></div>
+<div class="decor heart three"></div>
+<div class="decor heart four"></div>
+<div class="decor heart five"></div>
+
+
+<div class="decor star star-one"></div>
+<div class="decor star star-two"></div>
+<div class="decor star star-three"></div>
+<div class="decor star star-four"></div>
+<div class="decor star star-five"></div>
+<div class="decor star star-six"></div>
+<div class="decor star star-seven"></div>
+<div class="decor star star-eight"></div>
+<div class="decor star star-nine"></div>
+
+
+
+<!-- music -->
+
+
+<audio id="music">
+
+<source src="right back.mp3" type="audio/mp3">
+
+</audio>
+
+
+
+<div class="scroll-vinyl-wrap">
+
+
+<div class="vinyl-container">
+
+
+<div class="sparkle sparkle-one"></div>
+<div class="sparkle sparkle-two"></div>
+<div class="sparkle sparkle-three"></div>
+
+
+
+
+<div class="scroll-vinyl" id="scrollVinyl">
+
+
+<div class="vinyl-star">
+
+★
+
+</div>
+
+
+</div>
+
+
+
+<div class="now-playing">
+
+now playing
+
+<span>
+right back!
+</span>
+
+</div>
+
+
+
+</div>
+
+
+
+<button class="music-btn" onclick="playMusic()">
+
+play song
+
+</button>
+
+
+</div>
+
+
+
+
+<div class="diary">
+
+
+
+<header>
+
+
+<h1>
+anna’s little pink diary
+</h1>
+
+
+
+<p class="typing">
+
+hi, i’m anna
+
+</p>
+
+
+
+<p>
+
+a little place where i share my memories,
+favorites, food adventures, and the things i love.
+
+</p>
+
+
+
+</header>
+
+
+
+
+
+<!-- tabs -->
+
+
+
+<div class="tabs">
+
+
+
+<button onclick="showPage('about')">
+
+about me
+
+</button>
+
+
+
+
+<button onclick="showPage('hobbies')">
+
+hobbies
+
+</button>
+
+
+
+
+<button onclick="showPage('favorites')">
+
+favorites
+
+</button>
+
+
+
+
+<button onclick="showPage('food')">
+
+food diary
+
+</button>
+
+
+
+
+<button onclick="showPage('memories')">
+
+memories
+
+</button>
+
+
+
+
+<button onclick="showPage('people')">
+
+my people
+
+</button>
+
+
+
+</div>
+
+
+
+
+<!-- about -->
+
+
+
+<section id="about" class="page active">
+
+
+
+<div class="profile-frame">
+
+
+<img src="anna.HEIC">
+
+
+</div>
+
+
+
+
+
+<h2>
+
+about anna
+
+</h2>
+
+
+
+
+
+<p>
+
+
+hi! i’m anna, a 21 year old fourth year bachelor of science in nursing student.
+
+
+i am a type a person who loves being organized, planning ahead, and completing my responsibilities before deadlines.
+
+
+i believe that discipline and preparation help me become better every day.
+
+
+one of my biggest dreams is to work abroad someday, continue growing as a nurse, and experience different cultures around the world.
+
+
+</p>
+
+
+
+</section>
+
+
+
+
+
+<!-- hobbies -->
+
+
+
+<section id="hobbies" class="page">
+
+
+
+<h2>
+
+my hobbies
+
+</h2>
+
+
+
+
+<div class="cards">
+
+
+
+<div class="card">
+
+
+<img src="piano.JPG">
+
+
+
+<h3>
+
+playing piano
+
+</h3>
+
+
+
+
+<p>
+
+music is one of my favorite ways to express myself and relax.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="sing.jpg">
+
+
+
+<h3>
+
+singing
+
+</h3>
+
+
+
+
+<p>
+
+singing brings happiness and allows me to share emotions through music.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="dany.HEIC">
+
+
+
+<h3>
+
+watching movies
+
+</h3>
+
+
+
+
+<p>
+
+i love watching barbie movies and sci-fi films.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="books.png">
+
+
+
+<h3>
+
+reading
+
+</h3>
+
+
+
+
+<p>
+
+reading lets me explore different worlds and ideas.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="clove.jpg">
+
+
+
+<h3>
+
+playing valorant
+
+</h3>
+
+
+
+
+<p>
+
+i enjoy competitive games because they challenge me.
+
+</p>
+
+
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<img src="games.png">
+
+
+
+<h3>
+
+online games
+
+</h3>
+
+
+
+
+<p>
+
+gaming helps me relax and connect with people.
+
+</p>
+
+
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<img src="pikol.HEIC">
+
+
+
+<h3>
+
+playing pickleball
+
+</h3>
+
+
+
+
+<p>
+
+i enjoy staying active and trying new activities.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="sleep.JPEG">
+
+
+
+<h3>
+
+sleeping anywhere
+
+</h3>
+
+
+
+
+<p>
+
+resting and recharging is one of my favorite things.
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+</section>
+
+<!-- favorites -->
+
+
+<section id="favorites" class="page">
+
+
+<h2>
+
+my favorites
+
+</h2>
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+favorite movies
+
+</h3>
+
+
+
+
+<p>
+
+i love barbie movies because they remind me about dreams, friendship, imagination, and believing in yourself.
+
+</p>
+
+
+
+
+<p>
+
+i also enjoy sci-fi movies because i love stories about the future and discovering new worlds.
+
+</p>
+
+
+
+</div>
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+favorite foods
+
+</h3>
+
+
+
+
+<p>
+
+i love spicy foods because i enjoy bold flavors.
+
+pizza is also one of my favorite comfort foods.
+
+</p>
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+<!-- food diary -->
+
+
+
+<section id="food" class="page">
+
+
+
+<h2>
+
+food diary
+
+</h2>
+
+
+
+
+
+<p>
+
+little snapshots of the food i enjoy and the meals that make my days happier.
+
+</p>
+
+
+
+
+
+<div class="gallery">
+
+
+
+<img src="yumm.HEIC">
+
+<img src="spag.HEIC">
+
+<img src="drinks.HEIC">
+
+<img src="alcapone.HEIC">
+
+<img src="bun cha.HEIC">
+
+
+<img src="starbs.JPG">
+
+<img src="silog.HEIC">
+
+<img src="urban.HEIC">
+
+<img src="mowm.JPG">
+
+<img src="fevs.JPG">
+
+
+
+<img src="fries.HEIC">
+
+<img src="burger.HEIC">
+
+<img src="hcmc.HEIC">
+
+<img src="fat.HEIC">
+
+<img src="cdo.HEIC">
+
+
+
+<img src="mnl.JPG">
+
+<img src="cheesecake.HEIC">
+
+<img src="pizza.HEIC">
+
+<img src="laguna.HEIC">
+
+<img src="samyang.HEIC">
+
+
+
+<img src="green.HEIC">
+
+<img src="coffee.HEIC">
+
+<img src="cheat.HEIC">
+
+<img src="pezza.HEIC">
+
+<img src="RT.HEIC">
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- vietnam memories -->
+
+
+
+<section id="memories" class="page">
+
+
+
+<h2>
+
+my memories
+
+</h2>
+
+
+
+
+<p>
+
+little moments from my vietnam adventure.
+
+</p>
+
+
+
+
+
+<div class="gallery">
+
+
+
+<img src="b.HEIC">
+
+<img src="bui.HEIC">
+
+<img src="card.HEIC">
+
+<img src="e.HEIC">
+
+<img src="olivia.heic">
+
+
+
+<img src="manmoi.HEIC">
+
+<img src="neow.HEIC">
+
+<img src="paint.heic">
+
+<img src="shoes.HEIC">
+
+<img src="shop.HEIC">
+
+
+
+<img src="sign.HEIC">
+
+<img src="t.HEIC">
+
+<img src="tam vi.HEIC">
+
+<img src="train.HEIC">
+
+<img src="xmas.heic">
+
+
+<img src="hanoi.HEIC">
+
+<img src="cave.HEIC">
+
+<img src="pekshur.HEIC">
+
+<img src="cave wow.HEIC">
+
+<img src="yacht.HEIC">
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- people -->
+
+
+
+<section id="people" class="page">
+
+
+
+<h2>
+
+my people
+
+</h2>
+
+
+
+
+<p>
+
+little moments with my favorite people.
+
+these are memories i will always treasure.
+
+</p>
+
+
+
+
+
+
+<div class="gallery">
+
+
+
+<img src="squid.JPEG">
+
+<img src="photo.JPEG">
+
+<img src="rea.JPG">
+
+<img src="squidd.HEIC">
+
+<img src="capping.JPG">
+
+<img src="grad.HEIC">
+
+<img src="cute.JPG">
+
+<img src="strip.JPG">
+
+<img src="bari.jpg">
+
+<img src="yang.HEIC">
+
+<img src="trio.HEIC">
+
+<img src="bebe.HEIC">
+
+<img src="gsc.HEIC">
+
+<img src="L.JPG">
+
+<img src="girls.JPG">
+
+<img src="my girls.JPEG">
+
+<img src="shi.HEIC">
+
+<img src="papa.HEIC">
+
+<img src="icon.JPEG">
+
+<img src="kazens.JPG">
+
+
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+
+made with love by anna
+
+
+</footer>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+function showPage(page){
+
+
+
+let pages=document.querySelectorAll(".page");
+
+
+
+pages.forEach(function(section){
+
+
+section.classList.remove("active");
+
+
+});
+
+
+
+document.getElementById(page)
+
+.classList.add("active");
+
+
+
+}
+
+
+
+
+
+
+
+
+function playMusic(){
+
+
+
+let music=document.getElementById("music");
+
+let vinyl=document.getElementById("scrollVinyl");
+
+
+
+
+
+if(music.paused){
+
+
+
+music.play();
+
+
+
+vinyl.classList.add("playing");
+
+
+
+}
+
+
+
+
+else{
+
+
+
+music.pause();
+
+
+
+vinyl.classList.remove("playing");
+
+
+
+}
+
+
+
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+
+</html>
